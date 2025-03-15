@@ -1,0 +1,54 @@
+{
+  "menu.orderList": {
+    "message": "订单列表",
+    "description": "网站菜单中的文本，订单表示用户购买服务的订单"
+  },
+  "menu.applicationList": {
+    "message": "申请列表",
+    "description": "网站菜单中的文本，申请表示用户使用服务的申请"
+  },
+  "menu.userProfile": {
+    "message": "用户资料",
+    "description": "网站菜单中的文本，用户资料表示用户的个人资料"
+  },
+  "menu.idVerify": {
+    "message": "身份验证",
+    "description": "网站菜单中的文本，身份验证表示用户身份的验证"
+  },
+  "menu.manageApplication": {
+    "message": "申请管理",
+    "description": "网站菜单中的文本，申请管理表示用户申请的管理"
+  },
+  "menu.distributionIndex": {
+    "message": "推荐收益",
+    "description": "网站菜单中的文本，推荐收益表示用户推荐的收益"
+  },
+  "menu.developerPlatform": {
+    "message": "开发者平台",
+    "description": "网站菜单中的文本，开发者平台表示开发者的平台"
+  },
+  "menu.buyList": {
+    "message": "购买积分",
+    "description": "网站菜单中的文本，购买积分可以花钱购买完整积分"
+  },
+  "menu.vipList": {
+    "message": "VIP购买",
+    "description": "网站菜单中的文本，低价钱充值成为VIP用户"
+  },
+  "menu.queryList": {
+    "message": "查询服务",
+    "description": "网站菜单中的文本，查询表示查询用户已经使用的AI能力"
+  },
+  "menu.credentialIndex": {
+    "message": "凭证",
+    "description": "网站菜单中的文本，凭证表示访问 API 的凭证"
+  },
+  "menu.manageOrder": {
+    "message": "订单管理",
+    "description": "网站菜单中的文本，订单管理表示用户订单的管理，订单表示用户购买服务的订单"
+  },
+  "menu.manageDistributionStatus": {
+    "message": "分销管理",
+    "description": "网站菜单中的文本，分销管理表示用户分销状态的管理，与用户推荐的收益相关"
+  }
+}

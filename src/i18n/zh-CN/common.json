@@ -1,0 +1,370 @@
+{
+  "button.setup": {
+    "message": "设置",
+    "description": "按钮文本，用于设置某些内容"
+  },
+  "button.preview": {
+    "message": "预览",
+    "description": "按钮文本，用于通过URL打开预览某个文件"
+  },
+  "button.seeRawImage": {
+    "message": "查看原图",
+    "description": "按钮文本，用于查看原始图片"
+  },
+  "button.edit": {
+    "message": "编辑",
+    "description": "按钮文本，用于编辑某些内容"
+  },
+  "button.login": {
+    "message": "登录",
+    "description": "按钮文本，用于登录"
+  },
+  "button.logout": {
+    "message": "退出",
+    "description": "按钮文本，用于退出登录"
+  },
+  "button.new": {
+    "message": "新建",
+    "description": "按钮文本，用于创建新项目"
+  },
+  "button.delete": {
+    "message": "删除",
+    "description": "按钮文本，用于删除某些内容"
+  },
+  "button.confirm": {
+    "message": "确认",
+    "description": "按钮文本，用于确认某些内容"
+  },
+  "button.cancel": {
+    "message": "取消",
+    "description": "按钮文本，用于取消某些操作"
+  },
+  "button.alert": {
+    "message": "警告",
+    "description": "按钮文本，用于警告某些内容"
+  },
+  "button.info": {
+    "message": "信息",
+    "description": "按钮文本，用于显示信息"
+  },
+  "button.publish": {
+    "message": "发布",
+    "description": "按钮文本，用于发布某些内容"
+  },
+  "button.watch": {
+    "message": "观看",
+    "description": "按钮文本，用于观看某些内容"
+  },
+  "button.verify": {
+    "message": "实名认证",
+    "description": "按钮文本，用于让用户进行实名认证"
+  },
+  "button.profile": {
+    "message": "个人资料",
+    "description": "按钮文本，用于显示个人资料"
+  },
+  "button.console": {
+    "message": "控制台",
+    "description": "按钮文本，用于显示控制台页面以控制网页中的某些内容"
+  },
+  "button.learn": {
+    "message": "学习",
+    "description": "按钮文本，用于让用户学习某些内容"
+  },
+  "button.buy": {
+    "message": "购买",
+    "description": "按钮文本，用于让用户购买某些内容"
+  },
+  "button.try": {
+    "message": "尝试",
+    "description": "按钮文本，用于让用户尝试某些内容"
+  },
+  "button.startForFree": {
+    "message": "免费开始",
+    "description": "按钮文本，用于让用户免费开始使用"
+  },
+  "button.apply": {
+    "message": "申请",
+    "description": "按钮文本，用于让用户申请API服务"
+  },
+  "button.refresh": {
+    "message": "刷新",
+    "description": "按钮文本，用于刷新页面"
+  },
+  "button.pay": {
+    "message": "支付",
+    "description": "按钮文本，用于让用户支付服务费用"
+  },
+  "button.repay": {
+    "message": "继续支付",
+    "description": "按钮文本，用于让用户继续支付服务费用"
+  },
+  "button.applied": {
+    "message": "已申请",
+    "description": "按钮文本，用于显示用户已经申请了该服务"
+  },
+  "button.acquire": {
+    "message": "获取",
+    "description": "按钮文本，用于让用户获取API服务的令牌或密钥"
+  },
+  "button.fillExample": {
+    "message": "填写示例",
+    "description": "按钮文本，用于让用户填写示例数据"
+  },
+  "button.buyMore": {
+    "message": "购买",
+    "description": "按钮文本，用于让用户购买更多内容"
+  },
+  "button.update": {
+    "message": "更新",
+    "description": "按钮文本，用于更新某些内容"
+  },
+  "button.view": {
+    "message": "查看",
+    "description": "按钮文本，用于查看某些内容"
+  },
+  "button.copy": {
+    "message": "复制",
+    "description": "按钮文本，用于复制某些内容"
+  },
+  "button.create": {
+    "message": "创建",
+    "description": "按钮文本，用于创建某些内容"
+  },
+  "button.referralEarnings": {
+    "message": "推荐收益",
+    "description": "按钮文本，用于显示推荐收益，表示用户通过邀请他人使用服务可以赚钱"
+  },
+  "button.finish": {
+    "message": "完成",
+    "description": "按钮文本，用于完成某些内容"
+  },
+  "entity.website": {
+    "message": "刺梨 AI",
+    "description": "网站名称，无需翻译，保持为'刺梨 AI'"
+  },
+  "entity.copyright": {
+    "message": "版权",
+    "description": "用于显示版权信息的文本"
+  },
+  "entity.platform": {
+    "message": "平台",
+    "description": "指示这是API服务的平台的文本"
+  },
+  "entity.title": {
+    "message": "标题",
+    "description": "实体的标题"
+  },
+  "entity.icon": {
+    "message": "图标",
+    "description": "实体的图标"
+  },
+  "entity.status": {
+    "message": "状态",
+    "description": "实体的状态"
+  },
+  "entity.operation": {
+    "message": "操作",
+    "description": "实体的操作"
+  },
+  "entity.description": {
+    "message": "描述",
+    "description": "实体的描述"
+  },
+  "entity.createdAt": {
+    "message": "创建时间",
+    "description": "实体创建的时间"
+  },
+  "entity.updatedAt": {
+    "message": "更新时间",
+    "description": "实体更新的时间"
+  },
+  "entity.order": {
+    "message": "订单",
+    "description": "实体的订单，订单包含金额、服务信息，用户需要为其付费"
+  },
+  "message.usedAmount": {
+    "message": "已使用金额",
+    "description": "用于显示服务已使用的金额"
+  },
+  "message.remainingAmount": {
+    "message": "剩余积分",
+    "description": "用于显示服务剩余的金额"
+  },
+  "message.copied": {
+    "message": "已成功复制",
+    "description": "用于显示内容已成功复制的消息"
+  },
+  "message.confirmDelete": {
+    "message": "确定要删除吗？",
+    "description": "用于确认用户是否要删除某些内容的消息"
+  },
+  "message.alert": {
+    "message": "警告",
+    "description": "用于警告用户的消息"
+  },
+  "message.info": {
+    "message": "友情提醒",
+    "description": "用于显示信息的消息"
+  },
+  "message.free": {
+    "message": "免费",
+    "description": "用于显示服务免费的消息，表示用户无需付费"
+  },
+  "message.startPrice": {
+    "message": "起价",
+    "description": "用于显示服务的最低价格的消息"
+  },
+  "message.joinDiscord": {
+    "message": "Discord社区",
+    "description": "用于让用户加入Discord频道的消息"
+  },
+  "message.addWeChat": {
+    "message": "微信客服",
+    "description": "用于让用户添加微信的消息"
+  },
+  "message.serviceTech": {
+    "message": "技术支持",
+    "description": "用于显示服务技术支持的消息"
+  },
+  "message.businessCooperation": {
+    "message": "商务合作",
+    "description": "用于显示商务合作的消息"
+  },
+  "message.noData": {
+    "message": "暂无数据",
+    "description": "用于显示表格或列表中没有数据的消息"
+  },
+  "nav.home": {
+    "message": "首页",
+    "description": "网站导航栏中的文本，用于显示首页"
+  },
+  "nav.content": {
+    "message": "内容",
+    "description": "网站导航栏中的文本，用于显示内容页面"
+  },
+  "nav.category": {
+    "message": "分类",
+    "description": "网站导航栏中的文本，用于显示分类页面"
+  },
+  "nav.service": {
+    "message": "服务",
+    "description": "网站导航栏中的文本，用于显示服务页面"
+  },
+  "nav.profile": {
+    "message": "我",
+    "description": "网站导航栏中的文本，用于显示个人资料页面"
+  },
+  "nav.profiles": {
+    "message": "个人中心",
+    "description": "网站导航栏中的文本，用于显示个人资料页面"
+  },
+  "nav.document": {
+    "message": "文档",
+    "description": "网站导航栏中的文本，用于显示文档页面"
+  },
+  "nav.console": {
+    "message": "控制台",
+    "description": "网站导航栏中的文本，用于显示控制台页面"
+  },
+  "nav.chat": {
+    "message": "Chat",
+    "description": "网站导航栏中的文本，用于显示聊天页面，请不要翻译此字段，必须保持为'Chat'"
+  },
+  "nav.midjourney": {
+    "message": "Midjourney",
+    "description": "网站导航栏中的文本，用于显示中途之旅页面，请不要翻译此字段，必须保持为'Midjourney'"
+  },
+  "nav.chatdoc": {
+    "message": "ChatDoc",
+    "description": "网站导航栏中的文本，用于显示聊天文档页面，请不要翻译此字段，必须保持为'Chatdoc'"
+  },
+  "nav.qrart": {
+    "message": "QRArt",
+    "description": "网站导航栏中的文本，用于显示二维艺术页面，请不要翻译此字段，必须保持为'QRArt'"
+  },
+  "nav.distribution": {
+    "message": "推荐收益",
+    "description": "网站导航栏中的文本，用于显示推荐收益页面"
+  },
+  "nav.logOut": {
+    "message": "退出登录",
+    "description": "网站导航栏中的文本，用于退出登录"
+  },
+  "nav.site": {
+    "message": "站点配置",
+    "description": "网站导航栏中的文本，用于显示站点配置页面"
+  },
+  "nav.locale": {
+    "message": "语言设置",
+    "description": "网站导航栏中的文本，用于更改语言"
+  },
+  "nav.darkMode": {
+    "message": "主题切换",
+    "description": "网站导航栏中的文本，用于切换到深色主题"
+  },
+  "nav.support": {
+    "message": "客服支持",
+    "description": "网站导航栏中的文本，用于显示客服支持页面"
+  },
+  "title.alert": {
+    "message": "警报",
+    "description": "警报消息的标题"
+  },
+  "title.placeholderOfSelect": {
+    "message": "请选择",
+    "description": "选择输入框的占位符"
+  },
+  "title.placeholderOfInput": {
+    "message": "请填写",
+    "description": "输入框的占位符"
+  },
+  "title.allApplications": {
+    "message": "所有应用",
+    "description": "显示所有应用的页面标题"
+  },
+  "title.allOrders": {
+    "message": "所有订单",
+    "description": "显示所有订单的页面标题"
+  },
+  "title.orderInfo": {
+    "message": "订单信息",
+    "description": "显示订单信息的页面标题"
+  },
+  "title.buyMore": {
+    "message": "购买积分",
+    "description": "让用户购买积分的页面标题"
+  },
+  "title.VIPBuy": {
+	  "message": "VIP权限",
+	  "description": "给用户升级为VIP用户"
+  },
+  "title.query": {
+    "message": "查询服务",
+    "description": "查询用户已经使用的AI能力"
+  },
+  "title.distribution": {
+    "message": "推荐收益",
+    "description": "显示推荐收益的页面标题，表示用户可以通过邀请他人使用服务来赚钱"
+  },
+  "title.site": {
+    "message": "站点配置",
+    "description": "显示站点配置的页面标题"
+  },
+  "title.distributionHistory": {
+    "message": "推荐历史",
+    "description": "显示推荐历史的页面标题"
+  },
+  "title.invitee": {
+    "message": "邀请者",
+    "description": "显示邀请者的页面标题"
+  },
+  "title.allUsages": {
+    "message": "使用历史",
+    "description": "显示API服务所有使用记录的页面标题"
+  },
+  "title.allCredentials": {
+    "message": "凭证",
+    "description": "显示所有凭证的页面标题，这些凭证用于访问API"
+  }
+}

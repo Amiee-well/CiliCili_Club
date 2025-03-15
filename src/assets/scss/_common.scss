@@ -1,0 +1,123 @@
+:root {
+  --el-color-primary: #ff6f61; /* 明亮的珊瑚红 */
+  --el-color-primary-light-3: #ff9b8c; /* 浅珊瑚红 */
+  --el-color-primary-light-5: #ffb1a2; /* 浅粉红色 */
+  --el-color-primary-light-7: #ffd6d1; /* 浅桃色 */
+  --el-color-primary-light-8: #ffe6e2; /* 非常浅的桃色 */
+  --el-color-primary-light-9: #fff4f2; /* 非常浅的粉色 */
+  --el-color-primary-dark-2: #d24d3b; /* 活力的红色 */
+  --el-text-color-regular: #333; /* 亮色主题下的文本颜色 */
+  --el-border-color: #ccc; /* 边框颜色 */
+  --background-color: #ffffff; /* 亮色背景 */
+}
+
+.dark {
+  --el-color-primary: #ff6f61; /* 明亮的珊瑚红 */
+  --el-text-color-regular: #e0e0e0; /* 暗色主题下的文本颜色 */
+  --el-border-color: #444; /* 边框颜色 */
+  --background-color: #121212; /* 暗色背景 */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--el-text-color-regular);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+
+  .el-main {
+    padding: 0 !important;
+    border-radius: 1rem; /* 增加边角圆润效果 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 添加柔和阴影 */
+    background-color: var(--background-color);
+  }
+
+  .el-card {
+    word-wrap: break-word;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--background-color); /* 卡片背景颜色 */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* 卡片阴影 */
+    transition: transform 0.2s; /* 增加过渡效果 */
+
+    &:hover {
+      transform: translateY(-2px); /* 鼠标悬停效果 */
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2); /* 悬停时阴影加深 */
+    }
+  }
+
+  .el-breadcrumb__inner a,
+  .el-breadcrumb__inner.is-link {
+    color: var(--el-text-color-regular);
+    text-decoration: none; /* 去掉下划线 */
+    transition: color 0.2s; /* 增加过渡效果 */
+
+    &:hover {
+      color: var(--el-color-primary); /* 悬停时的颜色 */
+    }
+  }
+
+  .el-textarea {
+    border-radius: 10px;
+    background-color: var(--background-color); /* 背景颜色 */
+    border: 1px solid var(--el-border-color);
+
+    textarea {
+      border-radius: 10px;
+      padding: 0.5rem; /* 增加内边距 */
+      background-color: var(--background-color);
+      color: var(--el-text-color-regular);
+    }
+  }
+
+  .el-input {
+    .el-input__wrapper {
+      border-radius: 10px;
+      width: 100%;
+      border: 1px solid var(--el-border-color); /* 边框颜色 */
+
+      &.is-focus {
+        box-shadow: 0 0 0 2px var(--el-color-primary); /* 聚焦时的阴影 */
+      }
+
+      textarea:focus,
+      input:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .el-dialog {
+    border-radius: 1rem;
+    background-color: var(--background-color);
+    color: var(--el-text-color-regular);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 增加阴影和圆角 */
+  }
+
+  .el-table__header,
+  .el-table__body {
+    width: 100% !important;
+    border: 1px solid var(--el-border-color); /* 边框颜色 */
+    border-radius: 10px; /* 增加圆角效果 */
+    background-color: var(--background-color); /* 深色背景 */
+
+    tr {
+      &:hover {
+        background-color: var(--el-color-primary-light-7); /* 悬停时背景色 */
+      }
+    }
+  }
+}

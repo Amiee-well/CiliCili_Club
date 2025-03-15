@@ -1,0 +1,156 @@
+{
+  "name": "@cilicili/ai",
+  "version": "1.0.0",
+  "description": "刺梨AI专注于服务AI爱好者",
+  "author": "Amiee_Well",
+  "files": [
+    "dist/"
+  ],
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build --mode=development",
+    "serve": "vite preview",
+    "translate": "transmart",
+    "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
+    "prettier": "prettier --write .",
+    "change": "beachball change --no-commit",
+    "verify": "beachball check",
+    "bump": "beachball bump",
+    "release": "beachball publish --access public",
+    "prepare": "husky install",
+    "analyze": "vite-bundle-visualizer",
+    "page": "node scripts/addCustomPage.js",
+    "electron": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "electron:dev": "cross-env ELECTRON=true concurrently \"vite\" \"electron .\"",
+    "electron:build": "electron-forge make --arch=x64",
+    "electron:build:all": "electron-forge make --platform win32 --platform darwin --platform linux --arch=x64",
+    "electron:build:win": "electron-forge make --platform win32 --arch x64",
+    "electron:build:mac": "electron-forge make --platform darwin",
+    "electron:build:linux": "electron-forge make --platform linux"
+  },
+  "dependencies": {
+    "@codemirror/lang-java": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.1.2",
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/lang-php": "^6.0.1",
+    "@codemirror/lang-python": "^6.1.1",
+    "@codemirror/theme-one-dark": "^6.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "axios": "^1.6.0",
+    "codemirror": "^6.0.1",
+    "copy-to-clipboard": "^3.3.3",
+    "dayjs": "^1.10.7",
+    "electron-squirrel-startup": "^1.0.1",
+    "element-plus": "^2.2.28",
+    "github-markdown-css": "^5.1.0",
+    "highlight.js": "^11.7.0",
+    "mac-scrollbar": "^0.13.5",
+    "markdown-it": "^13.0.1",
+    "psl": "^1.9.0",
+    "qrcode": "^1.5.1",
+    "qs": "^6.11.2",
+    "query-string": "^8.1.0",
+    "typescript-cookie": "^1.0.3",
+    "url-join": "^5.0.0",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.6",
+    "vue-codemirror": "^6.1.1",
+    "vue-dark-switch": "^1.0.6",
+    "vue-i18n": "^9.1.7",
+    "vue-qrcode": "^2.2.0",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@transmart/cli": "^0.5.0",
+    "@types/lodash": "^4.14.172",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^16.7.4",
+    "@types/psl": "^1.1.3",
+    "@types/qs": "^6.9.9",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.4.16",
+    "beachball": "^2.51.0",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.2",
+    "electron": "^31.3.1",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.0.0",
+    "eslint-plugin-vue": "^10.0.0",
+    "husky": "^7.0.2",
+    "postcss": "^8.4.32",
+    "prettier": "^2.6.2",
+    "rollup-plugin-string": "^3.0.0",
+    "sass": "^1.38.1",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^4.9.5",
+    "vite": "^6.0.7",
+    "vite-bundle-visualizer": "1.0",
+    "vue-tsc": "^1.2.0"
+  },
+  "homepage": "./",
+  "license": "MIT",
+  "build": {
+    "appId": "com.cilicili.club",
+    "productName": "刺梨AI",
+    "files": [
+      "electron/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "sign": false
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false
+    }
+  }
+}

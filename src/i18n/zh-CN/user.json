@@ -1,0 +1,22 @@
+{
+  "field.id": {
+    "message": "用户ID",
+    "description": "用户ID"
+  },
+  "field.isVerified": {
+    "message": "已验证",
+    "description": "一个指示用户是否基于真实信息已验证的标志"
+  },
+  "field.nickname": {
+    "message": "昵称",
+    "description": "用户的昵称"
+  },
+  "field.username": {
+    "message": "用户名",
+    "description": "用户的用户名"
+  },
+  "field.dateJoined": {
+    "message": "注册时间",
+    "description": "用户注册时间"
+  }
+}
