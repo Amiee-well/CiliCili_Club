@@ -1,4 +1,3 @@
-
 <div align=center>
 	<h1 aligh="center">刺梨AI平台 - 全栈式云端 AI 服务平台</h1>
 </div>
@@ -7,13 +6,14 @@
 **如果喜欢这个项目，请给它一个Star；如果您发现了不得了的Bug，欢迎发pull！**
 
 ## 🌟 项目亮点
-- 零 GPU 门槛：全功能基于云端 GPU 运算，用户无需本地硬件支持
-- 微信生态集成：处理结果自动推送至微信公众号，支持文件暂存 30 天
-- 邀请返现计划：通过邀请码注册的用户充值后，邀请人可获最高 10% 返现
-- AI大模型全家桶：集成超 30 个文 / 图 / 音 / 视频转换模型，覆盖三大场景：
- - 智能对话：GLM-4/DeepSeek 等国内主流模型
- - 学术助手：论文润色、PPT 生成、图表制作等全流程支持
- - 媒体创作：Stable Diffusion/Midjourney 绘图、视频换脸 / 换背景等
+- ⚡ **零GPU门槛**：全功能基于云端GPU运算，用户无需本地硬件支持
+- 📲 **微信生态集成**：处理结果自动推送至微信公众号，支持文件暂存30天
+- 💰 **低价普惠**：按需付费模式，每日超多次免费，超出部分远低市场价
+- 🤝 **邀请返现计划**：通过邀请码注册的用户充值后，邀请人可获最高10%返现
+- 🧩 **AI大模型全家桶**：集成超30个文/图/音/视频转换模型，覆盖三大场景：
+  - 💬 智能对话：GLM-4/DeepSeek等国内主流模型
+  - 🎓 学术助手：论文润色、PPT生成、图表制作等全流程支持
+  - 🎨 媒体创作：Stable Diffusion/Midjourney绘图、视频换脸/换背景等
 
 ## 🛠️ 功能截图
 ### 对话服务
@@ -31,8 +31,8 @@ docker run xx
 
 ### 方案二：本地开发
 ```sh
-git clone https://github.com/Amiee_Well/CiliCili-pro.git 
-cd CiliCili-pro && yarn && yarn start
+git clone https://github.com/Amiee_well/CiliCili_Club.git 
+cd CiliCili_Club && yarn && yarn start
 ```
 ## 🖥️ 本地化部署（企业版）  
 **专为高敏感度数据与低延迟场景设计的私有化方案**  
@@ -71,4 +71,3 @@ cd CiliCili-pro && yarn && yarn start
 3. GLM 模型与DeepSeek模型商业授权说明
 
 > 📧 合作咨询：1223411083@qq.com | 故障报修：公众号内直连客服
-
