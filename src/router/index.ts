@@ -15,6 +15,7 @@ import GPT_Academic from './study/gpt_academic';
 import MetaGPT from './study/mgx';
 import PDF from './study/PDF';
 import excalidraw from './study/excalidraw';
+import hoppscotch from './study/hoppscotch';
 import screenshot2code from './study/screenshot2code';
 import VideoLingo from './media/videolingo';
 import ChatTTS from './media/ChatTTS';
@@ -67,6 +68,7 @@ const routes = [
   AIPPT,
   screenshot2code,
   MetaGPT,
+  hoppscotch,
   PDF,
   excalidraw,
   GPT_Word_Revise,

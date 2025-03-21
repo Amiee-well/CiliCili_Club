@@ -49,6 +49,9 @@ export const ROUTE_MetaGPT_CONVERSATION_NEW = 'MetaGPT';
 export const ROUTE_EXCALIDRAW_CONVERSATION = 'excalidraw-history';
 export const ROUTE_EXCALIDRAW_CONVERSATION_NEW = 'excalidraw';
 
+export const ROUTE_hoppscotch_CONVERSATION = 'hoppscotch-history';
+export const ROUTE_hoppscotch_CONVERSATION_NEW = 'hoppscotch';
+
 export const ROUTE_PDF_CONVERSATION = 'PDF_Conversion-history';
 export const ROUTE_PDF_CONVERSATION_NEW = 'PDF_Conversion';
 
