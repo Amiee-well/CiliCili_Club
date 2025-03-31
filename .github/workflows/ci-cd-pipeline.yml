@@ -3,9 +3,6 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # 主分支，通常是触发CI/CD的分支。
-  pull_request:
-    branches:
       - main
 
 jobs:
@@ -20,7 +17,7 @@ jobs:
       - name: Set up Node.js Environment
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # 确保与项目要求一致的Node.js版本
+          node-version: '16'
 
       - name: Install Dependencies
         run: yarn install
@@ -32,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: WebApp-Build
-          path: ./dist  # 修改为实际构建输出目录
+          path: ./dist
