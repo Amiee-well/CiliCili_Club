@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js Environment
         uses: actions/setup-node@v3
@@ -26,7 +26,7 @@ jobs:
         run: yarn build
 
       - name: Archive Build Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: WebApp-Build
           path: ./dist
